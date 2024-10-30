@@ -1,0 +1,342 @@
+.custom-card {
+    border: 2px solid #fff; /* Bordure blanche */
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(255, 255, 255, 0.5); /* Ombre blanche */
+}
+.custom-card-header {
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    background-color: #001b4d; /* Utilisation de la couleur personnalisée */
+}
+.custom-btn {
+    background-color: #001b4d; /* Utilisation de la couleur personnalisée */
+    border: none;
+}
+.custom-btn:hover {
+    background-color: #0056b3;
+}
+.form-icon {
+    margin-right: 5px;
+}
+.text-custom {
+    color: #001b4d; /* Utilisation de la couleur personnalisée */
+}
+.back-to-top {
+    display: none;
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    z-index: 99;
+    font-size: 18px;
+    border: none;
+    outline: none;
+    background-color: #007bff;
+    color: white;
+    cursor: pointer;
+    padding: 10px 15px;
+    border-radius: 4px;
+  }
+  
+  .back-to-top:hover {
+    background-color: #0056b3;
+  }body {
+    background-color: #001b4d;
+    color: #fff;
+  }
+  .navbar {
+    background-color: #001b4d;
+  }
+  .navbar-brand, .nav-link {
+    color: #fff !important;
+  }
+  .navbar-nav .nav-link:hover {
+    color: #ccc !important;
+  }
+  .card {
+    background-color: #001b4d;
+    border-color: #ffffff;
+    
+  }
+  .card-header, .card-footer {
+    background-color: #001b4d;
+    border-color: #fff;
+    color: #ffffff;
+  }
+  .card-body {
+    color: #fff;
+  }
+  .btn-primary {
+    background-color: #001b4d;
+    border-color: #001b4d;
+  }
+  .btn-primary:hover {
+    background-color: #002b6d;
+    border-color: #002b6d;
+  }
+  .navbar-brand {
+    margin-right: 2rem;
+  }
+
+
+  .close {
+    color: #aaa;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+  }
+
+  .close:hover,
+  .close:focus {
+    color: black;
+    text-decoration: none;
+    cursor: pointer;
+  }
+  .form-container {
+  background-color: #001b4d;
+  padding: 30px;
+  border-radius: 10px;
+  color: #fff;
+}
+
+.form-container .form-group {
+  margin-bottom: 20px;
+}
+
+.form-container label {
+  font-weight: bold;
+}
+
+.form-container .form-control,
+.form-container .form-control-file {
+  background-color: #fff;
+  border-color: #fff;
+  color: #001b4d;
+}
+
+.form-container .btn-primary {
+  background-color: #fff;
+  border-color: #fff;
+  color: #001b4d;
+  font-weight: bold;
+}
+
+.form-container .btn-primary:hover {
+  background-color: #e6e6e6;
+  border-color: #e6e6e6;
+}
+
+.btn-action {
+  color: rgb(0, 0, 0);
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+  transition: color 0.3s, background-color 0.3s;
+}
+
+.btn-action:hover {
+  color: #ffc107; /* Couleur hover, ici jaune pour l'exemple */
+}
+
+.btn-action.btn-delete:hover {
+  color: #dc3545; /* Couleur hover pour le bouton de suppression, rouge pour l'exemple */
+}
+
+.btn-action.btn-edit:hover {
+  color: #28a745; /* Couleur hover pour le bouton de modification, vert pour l'exemple */
+}
+
+.btn-action i {
+  transition: transform 0.3s;
+}
+
+.btn-action:hover i {
+  transform: scale(1.2); /* Agrandissement léger sur hover */
+}
+.breadcrumb {
+  background-color: #001b4d;
+  color: white;
+  padding: 0.75rem 5.3rem; /* Ajustement des marges intérieures pour l'espacement */
+  border-radius: 0.25rem; /* Pour arrondir les coins */
+}
+
+.breadcrumb-item a {
+  color: white; /* Couleur du lien */
+}
+
+.breadcrumb-item.active {
+  color: white; /* Couleur du texte actif */
+}
+.breadcrumb-item a:hover {
+  color: #079cff; /* Couleur du texte lors du survol */
+  text-decoration: none;
+}
+.back-to-top {
+  display: none;
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  z-index: 99;
+  font-size: 18px;
+  border: none;
+  outline: none;
+  background-color: #007bff;
+  color: white;
+  cursor: pointer;
+  padding: 10px 15px;
+  border-radius: 4px;
+}
+
+.back-to-top:hover {
+  background-color: #0056b3;
+}.transition-card {
+  transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+  width: 200px;
+  margin: 0 auto;
+}
+
+.transition-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.count-up {
+  transition: font-size 0.3s ease-in-out;
+}
+
+.count-up.target-reached {
+  font-size: 3rem;
+}
+
+.bounce {
+  animation: bounce 1s ease-in-out;
+}
+
+@keyframes bounce {
+  0% {
+    transform: translateY(0);
+  }
+  25% {
+    transform: translateY(-20px);
+  }
+  50% {
+    transform: translateY(0);
+  }
+  75% {
+    transform: translateY(-10px);
+  }
+  100% {
+    transform: translateY(0);
+  }
+}
+
+
+@import url("https://fonts.googleapis.com/css2?family=Poppins:weight@100;200;300;400;500;600;700;800&display=swap");
+.sidebar {
+  position: fixed;
+  top: 60px;
+  left: 0;
+  bottom: 0;
+  width: 60px;
+  background-color: #001b4d;
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  transition: width 0.3s;
+}
+.sidebar.expanded {
+  width: 200px;
+}
+@keyframes glow {
+  0%, 100% {
+      box-shadow: 0 0 5px #007BFF;
+  }
+  50% {
+      box-shadow: 0 0 20px #007BFF;
+  }
+}
+
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  height: 100vh;
+  position: relative;
+}
+.icon-container {
+  position: absolute;
+  bottom: 493px;
+  left: 1200px;
+}
+#main-icon {
+  font-size: 1.5em; /* Grande taille pour l'icône principale */
+  cursor: pointer;
+  transition: transform 0.3s ease, color 0.3s ease, background-color 0.3s ease; /* Ajout de la transition pour la couleur de fond */
+  padding: 10px;
+  border-radius: 50%; /* Pour rendre les coins arrondis */
+  animation: glow 2s infinite; /* Ajout de l'animation de brillance */
+}
+#main-icon:hover {
+  transform: scale(1.2); /* Agrandir légèrement l'icône au survol */
+  color: #fff; /* Changer la couleur du texte au survol */
+  background-color: #007BFF; /* Ajouter une couleur de fond au survol */
+}
+.extra-icons {
+  display: none;
+  position: absolute;
+  top: 50px; /* Placer les icônes supplémentaires au-dessus de l'icône principale */
+  right: 0px;
+ 
+;
+  padding: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  transition: opacity 0.3s ease, transform 0.3s ease; /* Ajout de la transition */
+  opacity: 0;
+  transform: translateY(10px);
+}
+.extra-icons.show {
+  display: block;
+  opacity: 1;
+  transform: translateY(0);
+}
+.extra-icons i {
+  display: block;
+  margin: 10px 0;
+font-size: 1.5em; /* Grande taille pour les icônes supplémentaires */
+  cursor: pointer;
+  transition: transform 0.3s ease; /* Ajout de la transition */
+}
+.extra-icons i:hover {
+  transform: scale(1.2);
+text-decoration-color: #007bff;}
+.sidebar {
+  position: fixed;
+  top: 68PX;
+  bottom: 0;
+  left: 0;
+  width: 70px;
+  background-color: #001b4d;
+  z-index: 3;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 10px 0;
+}
+
+.sidebar .nav-link {
+  color: white;
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+.sidebar .nav-link i {
+  display: block;
+  font-size: 24px;
+}
+
+.sidebar .nav-link span {
+  font-size: 12px;
+}
+
+.sidebar .nav-link:hover {
+  color: #007bff;
+}

@@ -1,0 +1,240 @@
+.sidebar {
+    position: fixed;
+    top: 60px;
+    left: 0;
+    bottom: 0;
+    width: 60px;
+    background-color: #001b4d;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    transition: width 0.3s;
+    z-index: 100;
+  }
+  .sidebar.expanded {
+    width: 200px;
+  }
+  .sidebar-item {
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+    cursor: pointer;
+  }
+  .sidebar-item i {
+    font-size: 24px;
+  }
+  .sidebar-item span {
+    display: none;
+    margin-left: 10px;
+  }
+  .sidebar.expanded .sidebar-item span {
+    display: inline;
+  }
+  .content {
+    margin-left: 60px;
+    padding: 100px 20px 20px;
+  }
+  .navbar {
+    background-color: #fff;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    padding: 10px 20px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 1;
+  }
+  .navbar-brand {
+    color: #333;
+    font-weight: bold;
+    display: flex;
+    align-items: center;
+  }
+  .navbar-brand img {
+    max-height: 30px;
+    margin-right: 10px;
+  }
+  .navbar-nav .nav-link {
+    color: #333;
+    margin-left: 20px;
+  }
+  .navbar-nav .nav-link:hover {
+    color: #000;
+  }
+  .navbar-nav .nav-link.active {
+    color: #ff0000;
+  }
+  .user-dropdown {
+    position: absolute;
+    top: 50px;
+    right: 0;
+    background-color: #fff;
+    border-radius: 4px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    padding: 10px 0;
+    z-index: 1;
+    display: none;
+  }
+  .user-dropdown a {
+    display: flex;
+    align-items: center;
+    padding: 10px 20px;
+    color: #333;
+    text-decoration: none;
+  }
+  .user-dropdown a:hover {
+    background-color: #f1f1f1;
+  }
+  .user-dropdown i {
+    margin-right: 10px;
+  }
+  .notification-badge {
+    position: absolute;
+    top: 0;
+    right: 0;
+    background-color: #ff0000;
+    color: #fff;
+    font-size: 10px;
+    padding: 4px 6px;
+    border-radius: 50%;
+  }
+  @import url("https://fonts.googleapis.com/css2?family=Poppins:weight@100;200;300;400;500;600;700;800&display=swap");
+  .sidebar {
+    position: fixed;
+    top: 60px;
+    left: 0;
+    bottom: 0;
+    width: 60px;
+    background-color: #001b4d;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    transition: width 0.3s;
+  }
+  .sidebar.expanded {
+    width: 200px;
+  }
+  .content {
+    margin-left: 60px;
+    padding: 100px 20px 20px;
+    transition: margin-left 0.3s;
+  }
+  .content.expanded {
+    margin-left: 200px;
+  }
+  .card-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: calc(150vh - 100px);
+    background-image: url('../img/three-clear-beakers-placed-on-tabletop.jpg');
+    background-size: cover;
+    background-position: center;
+  }
+  .card {
+    background-color: rgba(255, 255, 255, 0.8);
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+    padding: 20px;
+    margin-bottom: 100%;
+    text-align: center;
+  }
+  .card-title {
+    font-size: 18px;
+    font-weight: bold;
+  }
+  .card-text {
+    margin-bottom: 20px;
+  }
+  .btn-primary {
+    background-color: #001b4d;
+    border-color: #001b4d;
+  }
+  .btn-primary:hover {
+    background-color: #00123a;
+    border-color: #00123a;
+  }
+
+
+
+  #message-container {
+    position: absolute;
+    top: 60px;
+    right: 20px;
+    background-color: #fff;
+    border: 1px solid #ccc;
+    padding: 10px;
+    max-height: 300px;
+    overflow-y: auto;
+    width: 300px;
+    z-index: 100;
+    display: none;
+}
+
+#message-container.show {
+    display: block;
+}
+
+#message-container .message-list {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+.sidebar-text {
+  color: #fcfbfb; /* Couleur spécifique pour le texte */
+  text-decoration: none; /* Supprimer le soulignement du lien */
+}
+
+.sidebar-text:hover {
+  color: #007bff; /* Couleur de survol pour le texte */
+  text-decoration: none;
+}
+
+#message-container .message {
+    margin-bottom: 5px;
+}
+.sidebar-icon {
+  color: #f7f7f7; /* Couleur spécifique pour les icônes */
+}
+
+footer {
+  background-color: #00123a;
+  padding: 20px;
+  text-align: center;
+  color: #fff;
+}
+
+.footer-icons a {
+  color: #fff;
+  font-size: 24px;
+  margin: 0 10px;
+  text-decoration: none;
+}
+
+.footer-icons a:hover {
+  color: #ffcc00; /* Couleur de survol */
+}
+
+nav {
+  display: flex;
+  justify-content: center; /* Centre le contenu horizontalement */
+}
+.breadcrumb {
+  display: flex;
+  justify-content: center; /* Centre le contenu horizontalement */
+  list-style-type: none;
+  padding: 0;
+}
+.breadcrumb-item {
+  margin: 0 5px; /* Espace entre les éléments */
+}
+.breadcrumb-item a {
+  text-decoration: none;
+  color: inherit;
+}
+.breadcrumb-item.active {
+  font-weight: bold;
+}

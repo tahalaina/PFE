@@ -1,0 +1,12 @@
+<!DOCTYPE html> <html lang="fr"> <head> <meta charset="UTF-8"> 
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+    <title>| Aide</title> 
+    <link rel="icon" href="{{ asset('img/favicon3.ico') }}" type="image/x-icon">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"> 
+    <link rel="stylesheet" href="{{ asset('css/aide.css') }}">
+
+    </head> <body> <div class="container d-flex justify-content-center align-items-center" style="height: 100vh;">
+         <a href="{{ route('home') }}" class="btn btn-back"> 
+            <i class="fas fa-arrow-left"></i>
+retour </a> <div class="card p-5"> 
+    <h1 class="text-center mb-4">Aide</h1> <div class="row"> <div class="col-md-6"> <h3>Comment réinitialiser mon mot de passe ?</h3> <p>Pour réinitialiser votre mot de passe, rendez-vous sur la page "Mot de passe oublié" et entrez votre adresse e-mail. Vous recevrez alors un lien pour définir un nouveau mot de passe.</p> </div> <div class="col-md-6"> <h3>Où puis-je trouver mon numéro de compte ?</h3> <p>Votre numéro de compte peut être trouvé sur vos relevés bancaires ou dans votre espace client en ligne. Si vous ne le trouvez pas, n'hésitez pas à contacter notre service client.</p> </div> </div> <div class="row mt-4"> <div class="col-md-6"> <h3>Comment puis-je contacter le service client ?</h3> <p>Vous pouvez contacter notre service client par téléphone au 01 23 45 67 89 ou par e-mail à l'adresse service-client@example.com. Nos conseillers sont à votre écoute pour répondre à toutes vos questions.</p> </div> <div class="col-md-6"> <h3>Quels sont les horaires d'ouverture ?</h3> <p>Nos bureaux sont ouverts du lundi au vendredi, de 9h à 18h. Vous pouvez également nous joindre par téléphone aux mêmes horaires.</p> </div> </div> </div> </div> <div class="footer"> <p>Pour plus d'informations, n'hésitez pas à nous contacter :</p> <p> Téléphone : XX XX XX XX XX<br> E-mail : XXXXXXXXXX@example.com<br> Adresse :XXXXXXXXXXXXXXX </p> <p>&copy; 2023 Exemple. Tous droits réservés.</p> </div> <!-- Ajout de la bibliothèque Font Awesome pour l'icône de flèche --> <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/js/all.min.js"></script> </body> </html>

@@ -1,0 +1,72 @@
+body { background-color: #001b4d; color: white; }.card {
+    background-color: white;
+    color: #001b4d;
+    border-radius: 10px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease;
+  }
+  
+  .card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+  }
+  
+  .form-control:focus {
+    border-color: #001b4d;
+    box-shadow: 0 0 0 0.2rem rgba(0, 27, 77, 0.25);
+  }
+  
+  .btn-primary {
+    background-color: #001b4d;
+    border-color: #001b4d;
+    transition: background-color 0.3s ease, border-color 0.3s ease;
+  }
+  
+  .btn-primary:hover {
+    background-color: #005be3;
+    border-color: #002661;
+  }
+  
+  .btn-back {
+    position: absolute;
+    top: 20px;
+    left: 20px;
+    background-color: transparent;
+    border: none;
+    color: white;
+    font-size: 1.2rem;
+    transition: color 0.3s ease;
+  }
+  
+  .btn-back:hover {
+    color: #0055ff;
+  }
+  
+  .footer {
+    background-color: #001b4d;
+    color: white;
+    padding: 20px;
+    text-align: center;
+    margin-top: 40px;
+  }
+  
+  .footer a {
+    color: white;
+    text-decoration: none;
+  }
+  
+  .footer a:hover {
+    color: #0055ff;
+  }
+  
+  @media (max-width: 767px) {
+    .card {
+      width: 90%;
+    }
+  }
+  
+  @media (min-width: 768px) {
+    .card {
+      width: 600px;
+    }
+  }
